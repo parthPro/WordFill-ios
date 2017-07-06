@@ -12,6 +12,10 @@
 		3C1EF7061F07895F00ACF995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1EF7041F07895F00ACF995 /* Main.storyboard */; };
 		3C1EF7081F07895F00ACF995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1EF7071F07895F00ACF995 /* Assets.xcassets */; };
 		3C1EF70B1F07895F00ACF995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1EF7091F07895F00ACF995 /* LaunchScreen.storyboard */; };
+		3C1EF7351F0A7F2700ACF995 /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EF7341F0A7F2700ACF995 /* extentions.swift */; };
+		3C6CBCBE1F0A93D200E684DF /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBCBD1F0A93D200E684DF /* HomeScreenVC.swift */; };
+		3C6CBCC21F0D622500E684DF /* Titles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBCC11F0D622500E684DF /* Titles.swift */; };
+		A7EEB411514FA9C90A80CD8C /* Pods_textViewTappedWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C95F7A79E81333454E668E0 /* Pods_textViewTappedWord.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		3C1EF7071F07895F00ACF995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1EF70A1F07895F00ACF995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1EF70C1F07895F00ACF995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1EF7341F0A7F2700ACF995 /* extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
+		3C6CBCBD1F0A93D200E684DF /* HomeScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		3C6CBCC11F0D622500E684DF /* Titles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Titles.swift; sourceTree = "<group>"; };
+		68BD4F0B4B5DCAABD803B316 /* Pods-textViewTappedWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textViewTappedWord.release.xcconfig"; path = "Pods/Target Support Files/Pods-textViewTappedWord/Pods-textViewTappedWord.release.xcconfig"; sourceTree = "<group>"; };
+		6C95F7A79E81333454E668E0 /* Pods_textViewTappedWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_textViewTappedWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E651C4A60162DBD02B1B0A94 /* Pods-textViewTappedWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textViewTappedWord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textViewTappedWord/Pods-textViewTappedWord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7EEB411514FA9C90A80CD8C /* Pods_textViewTappedWord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1D6B56FCC2E04CA45E558A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C95F7A79E81333454E668E0 /* Pods_textViewTappedWord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C1EF6F41F07895F00ACF995 = {
 			isa = PBXGroup;
 			children = (
 				3C1EF6FF1F07895F00ACF995 /* textViewTappedWord */,
 				3C1EF6FE1F07895F00ACF995 /* Products */,
+				7FB67863E6398B72F1250039 /* Pods */,
+				2B1D6B56FCC2E04CA45E558A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +77,24 @@
 			children = (
 				3C1EF7001F07895F00ACF995 /* AppDelegate.swift */,
 				3C1EF7021F07895F00ACF995 /* ViewController.swift */,
+				3C6CBCBD1F0A93D200E684DF /* HomeScreenVC.swift */,
 				3C1EF7041F07895F00ACF995 /* Main.storyboard */,
 				3C1EF7071F07895F00ACF995 /* Assets.xcassets */,
 				3C1EF7091F07895F00ACF995 /* LaunchScreen.storyboard */,
 				3C1EF70C1F07895F00ACF995 /* Info.plist */,
+				3C1EF7341F0A7F2700ACF995 /* extentions.swift */,
+				3C6CBCC11F0D622500E684DF /* Titles.swift */,
 			);
 			path = textViewTappedWord;
+			sourceTree = "<group>";
+		};
+		7FB67863E6398B72F1250039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E651C4A60162DBD02B1B0A94 /* Pods-textViewTappedWord.debug.xcconfig */,
+				68BD4F0B4B5DCAABD803B316 /* Pods-textViewTappedWord.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C1EF70F1F07895F00ACF995 /* Build configuration list for PBXNativeTarget "textViewTappedWord" */;
 			buildPhases = (
+				84ED3F0665832DCDC8895B08 /* [CP] Check Pods Manifest.lock */,
 				3C1EF6F91F07895F00ACF995 /* Sources */,
 				3C1EF6FA1F07895F00ACF995 /* Frameworks */,
 				3C1EF6FB1F07895F00ACF995 /* Resources */,
+				049DE0647E0D5F3A83F31969 /* [CP] Embed Pods Frameworks */,
+				D373F8FE47D6CB1AFEFF204D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +132,7 @@
 				TargetAttributes = {
 					3C1EF6FC1F07895F00ACF995 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = CHUA95WJH9;
+						DevelopmentTeam = 585Z5C6Z4K;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +168,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		049DE0647E0D5F3A83F31969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textViewTappedWord/Pods-textViewTappedWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84ED3F0665832DCDC8895B08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D373F8FE47D6CB1AFEFF204D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textViewTappedWord/Pods-textViewTappedWord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C1EF6F91F07895F00ACF995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1EF7351F0A7F2700ACF995 /* extentions.swift in Sources */,
+				3C6CBCBE1F0A93D200E684DF /* HomeScreenVC.swift in Sources */,
 				3C1EF7031F07895F00ACF995 /* ViewController.swift in Sources */,
 				3C1EF7011F07895F00ACF995 /* AppDelegate.swift in Sources */,
+				3C6CBCC21F0D622500E684DF /* Titles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +348,12 @@
 		};
 		3C1EF7101F07895F00ACF995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E651C4A60162DBD02B1B0A94 /* Pods-textViewTappedWord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CHUA95WJH9;
+				DEVELOPMENT_TEAM = 585Z5C6Z4K;
 				INFOPLIST_FILE = textViewTappedWord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthanand.textViewTappedWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +363,12 @@
 		};
 		3C1EF7111F07895F00ACF995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BD4F0B4B5DCAABD803B316 /* Pods-textViewTappedWord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CHUA95WJH9;
+				DEVELOPMENT_TEAM = 585Z5C6Z4K;
 				INFOPLIST_FILE = textViewTappedWord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.parthanand.textViewTappedWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +395,7 @@
 				3C1EF7111F07895F00ACF995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
