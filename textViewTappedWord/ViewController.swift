@@ -122,87 +122,13 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
             textView.frame = CGRect(x: 10, y: yValue, width: view.frame.width - 20, height: view.frame.height - (yValue+60))
             
-//            clone_l = l
-//
-//            for i in 0..<l.count {
-//                
-//                l[i].removeFromSuperview()
-//            }
-//            
-//            l.removeAll()
-//            
-//            let pattern = "__________"
-//            let regex = try! NSRegularExpression(pattern: pattern, options: [])
-//            let matches = regex.matches(in: self.s, options: [], range: NSMakeRange(0, self.s.characters.count))
-//            
-//            for m in matches {
-//                
-//                let range = m.range
-//                let frame = self.frameOfTextInRange(range: range, inTextView: self.textView)
-//                let label = UILabel(frame: frame)
-//                label.text = ""
-//                label.font = UIFont(name: "Georgia-Italic", size: 17)
-//                label.textAlignment = .center
-//                label.textColor = UIColor(red: 40/255, green: 53/255, blue: 147/255, alpha: 1)
-//                self.l.append(label)
-//                
-//            }
-//            
-//            for i in 0..<self.result.count {
-//                
-//                self.textView.addSubview(self.l[i])
-//            }
-//            
-//            for i in 0..<l.count {
-//                
-//                l[i].text = clone_l[i].text
-//            }
+
 
         }
         
         if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
             textView.frame = CGRect(x: 10, y: yValue, width: view.frame.width - 20, height: view.frame.height - (yValue+60))
             
-//            clone_l = l
-//
-//            for i in 0..<l.count {
-//                
-//                l[i].removeFromSuperview()
-//            }
-//            
-//            l.removeAll()
-//
-//            
-//            let pattern = "__________"
-//            let regex = try! NSRegularExpression(pattern: pattern, options: [])
-//            let matches = regex.matches(in: self.s, options: [], range: NSMakeRange(0, self.s.characters.count))
-//            
-//            
-//            for m in matches {
-//                
-//                let range = m.range
-//                let frame = self.frameOfTextInRange(range: range, inTextView: self.textView)
-//                
-//                let label = UILabel(frame: frame)
-//                label.text = ""
-//                label.font = UIFont(name: "Georgia-Italic", size: 17)
-//                label.textAlignment = .center
-//                label.textColor = UIColor(red: 40/255, green: 53/255, blue: 147/255, alpha: 1)
-//                
-//                self.l.append(label)
-//                
-//            }
-//            
-//            for i in 0..<self.result.count {
-//                
-//                self.textView.addSubview(self.l[i])
-//                
-//            }
-//            
-//            for i in 0..<l.count {
-//                
-//                l[i].text = clone_l[i].text
-//            }
 
         }
     }
